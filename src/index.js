@@ -9,12 +9,10 @@ const ipc = ipcMain;
 // Creating browser window
 const createWindow = () => {
 	const mainWindow = new BrowserWindow({
-		width: 1000,
-		height: 600,
-		// frame: false,
-		// resizable: false,
+		width: 400,
+		height: 500,
+		frame: false,
 		webPreferences: {
-			// devTools: true,
 			nodeIntegration: true,
 			contextIsolation: false,
 		},
