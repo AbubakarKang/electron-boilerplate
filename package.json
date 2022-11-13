@@ -9,6 +9,6 @@
   "author": "AbubakarKang",
   "license": "ISC",
   "dependencies": {
-    "electron": "^18.0.4"
+    "electron": "^19.1.5"
   }
 }
